@@ -1,0 +1,22 @@
+<script>
+var counter=0;
+var arr=[4,3,4,5,8,7,2];
+for(var i in arr){
+if(i%2==0){
+document.write("even"+"<br>");
+var even_no=counter+=1;
+}
+else{
+document.write("odd"+"<br>");
+var odd_no=counter+=1;
+}
+}
+if(even_no<odd_no){
+document.write("4,4,8,2");
+}
+if(even_no>odd_no){
+document.write("3,5,7");
+}
+if(even_no===odd_no){
+console.error("enter message here");}
+</script>
